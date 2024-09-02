@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>Website</title>
+    <link rel="stylesheet" href="2.css" />
+  </head>
+  <body>
+    <h1>HTML</h1>
+    <p id="word">Hop to:</p>
+    <nav>
+      <a class="hopto" href="#section-images">Images</a>
+      <a class="hopto" href="#section-links">Links</a>
+    </nav>
+
+    <div>
+      <h2 id="section-images" class="subheading">Images:</h2>
+      <p>
+        Images really spice up your website, providing visual detail to what
+        your website is trying to do. But how do you insert a picture?<br />You
+        can insert a picture by using the &lt;img&gt; tag. When nothing is
+        inside it, it will look like this:
+      </p>
+      <p class="special">&lt;img src="" alt="" width="" height=""&gt;</p>
+      <p>
+        By default, the 'width' and 'height' parts won't be there, although they
+        are still important to define the size of the image on the website. The
+        computer reads width="100"&nbsp;height="150" as the width=100 pixels and
+        height=150 pixels and the height is 150 pixels. Inside 'alt', short for
+        'alternative text', you can write text that replaces the image in case
+        the image cannot load. It is useful to write text to describe the image,
+        which will provide the reader with the necessary information that the
+        image would have otherwise provided. Inside 'src' short for 'source' is
+        where the image can be found. Usually, you have to move around inside
+        the folder to find the image. For example:
+      </p>
+      <p class="special">
+        &lt;img src="../images/youtube_logo.jpg" alt="YouTube Logo"&gt;
+      </p>
+      <p>
+        The '..' part is important as it tells the computer to exit the current
+        location and start searching from there. Your folders may be arranged in
+        a different way so your code may look a little different. Just make sure
+        you remember that you always start from wherever the code is actually
+        written. An easier way to understand this is let's say this html code is
+        in a folder called 'html' and the image is in a seperate folder called
+        'images'. To get to this picture, we must exit 'html' through '..' then
+        enter images through '/images' then access the image through
+        '/youtube_logo.jpg'. This is what the code looks like:
+      </p>
+      <img
+        src="../images/youtube_logo.jpg"
+        alt="YouTube Logo"
+        width="180"
+        height="120"
+      />
+      <p>
+        The picture you can see is 180 pixels wide and 120 pixels high. It's
+        alternative text is 'YouTube Logo'
+      </p>
+    </div>
+    <div>
+      <h2 id="section-links" class="subheading">Links:</h2>
+      <p>
+        To put a link on the website, you can use the &lt;a&gt; tag. For
+        example, if we want the link to send the user to the website
+        'https://www.youtube.com/', we can write the code in the 'href' part.
+        Below is the code.
+      </p>
+      <p class="special">
+        &lt;a href="https://www.youtube.com/"&gt;YouTube Link&lt;/a&gt;
+      </p>
+      <p>The link below opens a new YouTube tab:</p>
+      <a class="link" href="https://www.youtube.com/">YouTube Link</a>
+      <p>
+        These are called hyperlinks. You may have seen a lot of these on
+        Wikipedia. When clicked, they send you to a different website.
+      </p>
+      <p>
+        You can also use an image as a link. It's the same as a normal text
+        hyperlink, where when you click on the picture, it will send you to a
+        different website. For example:
+      </p>
+      <p class="special">
+        &lt;a href="https://www.youtube.com/"&gt;&lt;img src="youtube_logo.jpg"
+        alt="YouTube Logo" width="180" height="120"&gt;&lt;/a&gt;
+      </p>
+      <p>
+        We utilise the image from before. When used, the output looks like this:
+      </p>
+      <a href="https://www.youtube.com/"
+        ><img src=../images/youtube_logo.jpg alt="YouTube Logo" width="180"
+        height="120"></a
+      >
+      <p>Try clicking on it.</p>
+      <p>
+        You can see that it looks the same as the picture in the Images section,
+        but it actually serves another purpose, which is to act as a link as
+        well.
+      </p>
+    </div>
+  </body>
+</html>

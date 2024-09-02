@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #svgContainer {
+        position: relative;
+        width: 110px; /* Adjust to the width of the largest SVG */
+        height: 150px; /* Adjust to the height of the largest SVG */
+      }
+
+      .svg1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .svg2 {
+        position: absolute;
+        top: 105px;
+        left: 28px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="svgContainer">
+      <svg class="svg1" width="110" height="150">
+        <polygon
+          points="50,20 70,80 75,60 80,40 100,120 70,100 10,140"
+          style="
+            fill: lime;
+            stroke: #006400;
+            stroke-width: 5;
+            fill-rule: evenodd;
+          "
+        />
+      </svg>
+
+      <svg class="svg2" width="60" height="70">
+        <polygon
+          points="10,40 30,20 50,40 40,30 40,10, 50,10 50,60 40,60 40,50 20,50 20,60 40,60 10,60"
+          style="
+            fill: brown;
+            stroke: black;
+            stroke-width: 5;
+            fill-rule: evenodd;
+          "
+        />
+      </svg>
+    </div>
+  </body>
+</html>
