@@ -1,0 +1,44 @@
+.profile_picture {
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: 25px;
+}
+#name {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 45px;
+  margin-left: 35px;
+}
+.container {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+td,
+th {
+  border: 1px solid grey;
+  text-align: left;
+  padding: 5px;
+}
+table {
+  border-collapse: collapse;
+  width: 55%;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+.about_me {
+  border: 5px solid #7de23f;
+  padding: 10px;
+  width: 53%;
+  margin-bottom: 25px;
+}
+.about_me_info {
+  font-size: 20px;
+}
+#football_picture {
+  height: 280px;
+  width: 490px;
+  margin-left: 10px;
+}
+#mathematics_picture {
+  height: 280px;
+}
