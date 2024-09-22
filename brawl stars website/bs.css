@@ -2,6 +2,11 @@
   font-family: "Poppins";
 }
 
+.nav_bar_links.active {
+  background-color: #eef20cf5; /* Highlighted background */
+  color: black; /* Text color */
+}
+
 #nav_bar {
   list-style-type: none;
   margin: 0;
@@ -92,20 +97,25 @@ p {
 #bs_brawlers_title {
   margin-left: 10px;
 }
-#table_with_info {
+.table_with_info {
   border: 6px solid #efa212;
-  width: 50%;
+  width: 70%;
   margin-right: auto;
   padding: 10px;
   margin: 15px;
 }
 
-#brawler_rarity_info {
+.heading_info {
   font-size: 20px;
+}
+.info {
+  font-size: 15px;
 }
 #home_icon {
   width: 80px;
 }
 #sort_by_list {
   list-style-type: none;
+  font-size: 25px;
+  margin-left: 15px;
 }
