@@ -1,9 +1,13 @@
+* {
+  font-family: "Poppins";
+}
+
 #nav_bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #000000;
   display: flex;
 }
 
@@ -21,11 +25,11 @@
   display: flex;
   align-items: center;
   font-size: 30px;
-  font-family: "Poppins";
 }
 
 .nav_bar_links:hover {
   background-color: #efa212;
+  color: black;
 }
 
 body {
@@ -33,18 +37,75 @@ body {
 }
 
 #reddit_icon {
-  width: 50px;
+  width: 100px;
 }
 #twitter_icon {
   width: 100px;
 }
-.nav_bar_icons {
+.nav_bar_icons_left {
   display: flex;
   align-items: center;
-  margin-left: auto;
-  float: right;
+  margin-right: 3px;
+  float: left;
 }
+.nav_bar_icons_right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
 #youtube_icon {
   width: 120px;
   padding: 0px;
+}
+#brawler_info {
+  margin: 8px;
+}
+.brawler_rarities {
+  font-size: 25px;
+}
+#starting_brawler_icon {
+  width: 40px;
+}
+#rare_brawler_icon {
+  width: 40px;
+}
+#super_rare_brawler_icon {
+  width: 40px;
+}
+#epic_brawler_icon {
+  width: 40px;
+}
+#mythic_brawler_icon {
+  width: 40px;
+}
+#legendary_brawler_icon {
+  width: 40px;
+}
+p {
+  margin: 5px;
+}
+.table_rarity_word {
+  padding-left: 25px;
+}
+#bs_brawlers_title {
+  margin-left: 10px;
+}
+#table_with_info {
+  border: 6px solid #efa212;
+  width: 50%;
+  margin-right: auto;
+  padding: 10px;
+  margin: 15px;
+}
+
+#brawler_rarity_info {
+  font-size: 20px;
+}
+#home_icon {
+  width: 80px;
+}
+#sort_by_list {
+  list-style-type: none;
 }
