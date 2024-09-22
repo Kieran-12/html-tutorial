@@ -70,10 +70,12 @@
 
     <div id="brawler_info">
       <h1 id="bs_brawlers_title">Brawlers</h1>
+      <p>This page contains information about brawler rarities,</p>
       <p>In Brawl Stars, there are currently 83 brawlers (excluding Kenji).</p>
     </div>
 
     <div class="table_with_info">
+      <h2>Brawler Rarities</h2>
       <p class="info">
         These brawlers are split into 6 rarities. These rarities are:
       </p>
@@ -145,10 +147,11 @@
     </div>
 
     <div class="table_with_info">
-      <p class="heading_info">
+      <h2>Sorting</h2>
+      <p class="info">
         You are able to sort your brawlers by, in order of the dropdown menu:
       </p>
-      <ul id="sort_by_list">
+      <ul class="sort_by_list">
         <li>Rarity</li>
         <li>Rarity Descending</li>
         <li>Most Trophies</li>
@@ -169,19 +172,42 @@
         quests at once.
       </p>
     </div>
+    <div class="table_with_info">
+      <h2>Class</h2>
+      <p>
+        In Brawl Stars, there are classes which are used to categorise brawlers
+        by their functions. Sometimes, these categorisations aren't the most
+        accurate, but they provide a good explanation to new players about how
+        the brawler should be played. There are 7 classes, which are:
+      </p>
+      <ul class="sort_by_list">
+        <li>Tanks</li>
+        <li>Assassins</li>
+        <li>Support</li>
+        <li>Controller</li>
+        <li>Damage Dealer</li>
+        <li>Marksmen</li>
+        <li>Artillery</li>
+      </ul>
+    </div>
 
     <div class="table_with_info">
-      <p>
-        In Brawl Stars, Mastery, is a way of tracking the amount you have played
-        a certian brawler. You get mastery from winning games. In 3vs3 gamemodes
-        like brawl ball or knockout, you must win the game to get mastery
-        points. In solo showdown, you need top 4 to get mastery points. In duo
-        showdown, you need top 2 to get mastery points. The amount of mastery
-        you gain is based off of the amount of trophies you had when winning.
-        The higher the trophies, the more mastery points you will gain every
-        win. There are way to get more mastery points than expected. The 2
-        methods are to:
-      </p>
+      <h2>Mastery</h2>
+      <div id="mastery">
+        <p>
+          In Brawl Stars, Mastery, is a way of tracking the amount you have
+          played a certian brawler. You get mastery from winning games. In 3vs3
+          gamemodes like brawl ball or knockout, you must win the game to get
+          mastery points. In solo showdown, you need top 4 to get mastery
+          points. In duo showdown, you need top 2 to get mastery points. The
+          amount of mastery you gain is based off of the amount of trophies you
+          had when winning. The higher the trophies, the more mastery points you
+          will gain every win. There are way to get more mastery points than
+          expected. The 2 methods are to:
+        </p>
+        <img src="mastery_icon.png" alt="Mastery Icon" id="mastery_icon" />
+      </div>
+
       <ul>
         <li>Get Star Player</li>
         <li>Win During Mastery Madness Event</li>
@@ -191,6 +217,207 @@
         Madness events increase mastery points gained by 50%, 100%, 150% or
         200%.
       </p>
+      <p>
+        The amount of mastery gained for every trophy range is listed below:
+      </p>
+      <table id="mastery_table">
+        <tr class="simple_table">
+          <td class="simple_table">Trophy Range</td>
+          <td class="simple_table">Mastery Points Gained</td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            0-49 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            5 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            50-99 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            7 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            100-149 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            10 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            150-199 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            12 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            200-249 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            15 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            250-299 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            17 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            300-349 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            20 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            350-399 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            23 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            400-449<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            25 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            450-499 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            27 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            500-549<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            35 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            550-599<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            40 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            600-649<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            45 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            650-699<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            50 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            700-749<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            55 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            750-799<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            60 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            800-849<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            65 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            850-899<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            70 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            900-949<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            75 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            950-999<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            80 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            1000-1049<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            85 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            1050-1099<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            90 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td class="simple_table">
+            1100-1149<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            95 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table">
+          <td class="simple_table">
+            1150+<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td class="simple_table">
+            100 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+      </table>
     </div>
   </body>
 </html>

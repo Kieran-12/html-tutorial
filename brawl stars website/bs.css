@@ -101,7 +101,10 @@ p {
   border: 6px solid #efa212;
   width: 70%;
   margin-right: auto;
-  padding: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
   margin: 15px;
 }
 
@@ -109,13 +112,47 @@ p {
   font-size: 20px;
 }
 .info {
-  font-size: 15px;
+  font-size: 20px;
+  padding-top: 0px;
 }
 #home_icon {
   width: 80px;
 }
-#sort_by_list {
+.sort_by_list {
   list-style-type: none;
   font-size: 25px;
   margin-left: 15px;
+}
+#mastery {
+  display: flex;
+}
+#mastery_icon {
+  width: 160px;
+  height: auto;
+}
+#mastery_table {
+  border-collapse: collapse;
+}
+.simple_table {
+  border: 3px solid #dddddd;
+}
+.simple_table td {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  align-items: center;
+}
+.simple_table.even {
+  background-color: #9a9a9a;
+}
+.in_table_mastery_icon {
+  width: 25px;
+  vertical-align: -6.2px;
+}
+.in_table_trophy_icon {
+  width: 25px;
+  float: right;
+  vertical-align: px;
+}
+h2 {
+  margin: 5px;
 }
