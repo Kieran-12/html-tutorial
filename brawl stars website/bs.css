@@ -72,21 +72,27 @@ body {
 }
 #starting_brawler_icon {
   width: 40px;
+  margin-left: 10px;
 }
 #rare_brawler_icon {
   width: 40px;
+  margin-left: 10px;
 }
 #super_rare_brawler_icon {
   width: 40px;
+  margin-left: 10px;
 }
 #epic_brawler_icon {
   width: 40px;
+  margin-left: 10px;
 }
 #mythic_brawler_icon {
   width: 40px;
+  margin-left: 10px;
 }
 #legendary_brawler_icon {
   width: 40px;
+  margin-left: 10px;
 }
 p {
   margin: 5px;
@@ -130,11 +136,10 @@ p {
   width: 160px;
   height: auto;
 }
-#mastery_table {
-  border-collapse: collapse;
-}
 .simple_table {
   border: 3px solid #dddddd;
+  border-collapse: collapse;
+  width: 80%;
 }
 .simple_table td {
   padding: 10px;
@@ -150,9 +155,60 @@ p {
 }
 .in_table_trophy_icon {
   width: 25px;
-  float: right;
-  vertical-align: px;
+  vertical-align: -4px;
+  margin-left: 3px;
 }
 h2 {
   margin: 5px;
+}
+#tank_icon {
+  width: 40px;
+  vertical-align: middle;
+}
+#assassin_icon {
+  width: 40px;
+  vertical-align: middle;
+}
+#support_icon {
+  width: 40px;
+  vertical-align: middle;
+}
+#controller_icon {
+  width: 30px;
+  vertical-align: middle;
+}
+#damage_dealer_icon {
+  width: 30px;
+  vertical-align: middle;
+}
+#marksmen_icon {
+  width: 30px;
+  vertical-align: middle;
+}
+#artillery_icon {
+  width: 30px;
+  vertical-align: middle;
+}
+.in_mastery_table_brawler_rarity_icon {
+  width: 50px;
+  margin-right: auto;
+  vertical-align: middle;
+}
+.in_mastery_table_mastery_icon {
+  width: 50px;
+  vertical-align: middle;
+}
+.mastery_table_numbers {
+  font-size: 40px;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.in_mastery_table_currency {
+  width: 50px;
+  vertical-align: middle;
+}
+.in_mastery_table_small_text {
+  vertical-align: middle;
+  align-items: center;
+  margin-left: 8px;
 }
