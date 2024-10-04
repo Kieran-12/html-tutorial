@@ -1,0 +1,870 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="keywords" content="brawl stars" />
+    <meta name="author" content="Kieran Lee" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brawl Stars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bs.css" />
+  </head>
+
+  <body>
+    <div id="nav_bar_container">
+      <ul class="nav_bar">
+        <li class="nav_bar_items">
+          <a href="bs_home.html" class="nav_bar_links">Home</a>
+        </li>
+        <li class="nav_bar_items">
+          <a href="bs_brawlers.html" class="nav_bar_links active">Brawlers</a>
+        </li>
+        <li class="nav_bar_items">
+          <a href="bs_maps.html" class="nav_bar_links">Maps</a>
+        </li>
+        <li class="nav_bar_items">
+          <a href="bs_ranked.html" class="nav_bar_links">Ranked</a>
+        </li>
+        <li class="nav_bar_items">
+          <a href="bs_events.html" class="nav_bar_links">Events</a>
+        </li>
+        <li class="nav_bar_items">
+          <a href="bs_progression.html" class="nav_bar_links">Progression</a>
+        </li>
+        <li class="nav_bar_icons_left">
+          <a href="https://x.com/BrawlStars"
+            ><img
+              src="twitter_icon.png"
+              alt="Brawl Stars Official Twitter Accout"
+              id="twitter_icon"
+          /></a>
+        </li>
+        <li class="nav_bar_icons_left">
+          <a href="https://www.reddit.com/r/Brawlstars/"
+            ><img
+              src="reddit_icon.png"
+              alt="r/Brawlstars Reddit"
+              id="reddit_icon"
+          /></a>
+        </li>
+        <li class="nav_bar_icons_left">
+          <a href="https://www.youtube.com/@BrawlStars"
+            ><img
+              src="youtube_icon.png"
+              alt="Brawl Stars Official YouTube Channel"
+              id="youtube_icon"
+          /></a>
+        </li>
+        <li class="nav_bar_icons_right">
+          <a href="bs_home.html"
+            ><img src="home_icon.png" alt="Home" id="home_icon"
+          /></a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="brawler_info">
+      <h1 class="title">Brawlers</h1>
+      <p>
+        This page contains information about
+        <a class="goto" href="#section-brawler_rarities"
+          ><u>Brawler Rarities</u></a
+        >
+        &nbsp;,&nbsp;
+        <a class="goto" href="#section-sorting"> <u>Sorting</u></a>
+        &nbsp;,&nbsp;
+        <a class="goto" href="#section-class"> <u>Class</u></a>
+        &nbsp;,&nbsp;
+        <a class="goto" href="#section-mastery"><u>Mastery</u></a>
+        &nbsp;,&nbsp;
+        <a class="goto" href="#section-trophies"> <u>Trophies</u></a>
+      </p>
+      <p>In Brawl Stars, there are currently 84 brawlers.</p>
+    </div>
+
+    <div class="table_with_info">
+      <h2 id="section-brawler_rarities">Brawler Rarities</h2>
+      <p class="info">
+        These brawlers are split into 6 rarities. These rarities are:
+      </p>
+
+      <div id="brawler_rarity_table">
+        <table>
+          <tr class="brawler_rarities">
+            <td class="table_rarity_word">
+              <a href="bs_brawlers_starting.html"
+                ><span class="baby_blue">Starting Brawler</span></a
+              >
+            </td>
+            <td class="float_right_rarity_icons">
+              <a href="bs_brawlers_starting.html">
+                <img
+                  src="starting_brawler_icon.png"
+                  alt="Starting Brawler Icon"
+                  id="starting_brawler_icon"
+                />
+              </a>
+            </td>
+          </tr>
+
+          <tr class="brawler_rarities">
+            <td class="table_rarity_word">
+              <a href="bs_brawlers_rare.html"
+                ><span class="green">Rare</span></a
+              >
+            </td>
+            <td class="float_right_rarity_icons">
+              <a href="bs_brawlers_rare.html">
+                <img
+                  src="rare_brawler_icon.png"
+                  alt="Rare Brawler Icon"
+                  id="rare_brawler_icon"
+                />
+              </a>
+            </td>
+          </tr>
+
+          <tr class="brawler_rarities">
+            <td class="table_rarity_word">
+              <a href="bs_brawlers_super_rare.html"
+                ><span class="blue">Super Rare</span></a
+              >
+            </td>
+            <td class="float_right_rarity_icons">
+              <a href="bs_brawlers_super_rare.html">
+                <img
+                  src="super_rare_brawler_icon.png"
+                  alt="Super Rare Brawler Icon"
+                  id="super_rare_brawler_icon"
+                />
+              </a>
+            </td>
+          </tr>
+
+          <tr class="brawler_rarities">
+            <td class="table_rarity_word">
+              <a href="bs_brawlers_epic.html"
+                ><span class="purple">Epic</span></a
+              >
+            </td>
+            <td class="float_right_rarity_icons">
+              <a href="bs_brawlers_epic.html">
+                <img
+                  src="epic_brawler_icon.png"
+                  alt="Epic Brawler Icon"
+                  id="epic_brawler_icon"
+                />
+              </a>
+            </td>
+          </tr>
+
+          <tr class="brawler_rarities">
+            <td class="table_rarity_word">
+              <a href="bs_brawlers_mythic.html"
+                ><span class="red">Mythic</span></a
+              >
+            </td>
+            <td class="float_right_rarity_icons">
+              <a href="bs_brawlers_mythic.html">
+                <img
+                  src="mythic_brawler_icon.png"
+                  alt="Mythic Brawler Icon"
+                  id="mythic_brawler_icon"
+                />
+              </a>
+            </td>
+          </tr>
+
+          <tr class="brawler_rarities">
+            <td class="table_rarity_word">
+              <a href="bs_brawlers_legendary.html"
+                ><span class="yellow">Legendary</span></a
+              >
+            </td>
+            <td class="float_right_rarity_icons">
+              <a href="bs_brawlers_legendary.html">
+                <img
+                  src="legendary_brawler_icon.png"
+                  alt="Legendary Brawler Icon"
+                  id="legendary_brawler_icon"
+                />
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="table_with_info">
+      <h2 id="section-sorting">Sorting</h2>
+      <p class="info">
+        You are able to sort your brawlers by, in order of the dropdown menu:
+      </p>
+      <ul class="sort_by_list">
+        <li>Rarity</li>
+        <li>Rarity Descending</li>
+        <li>Most Trophies</li>
+        <li>Least Trophies</li>
+        <li>Closest to Next Tier</li>
+        <li>Power Level</li>
+        <li>Mastery</li>
+        <li>Closest to Next Mastery</li>
+        <li>Name</li>
+        <li>New</li>
+        <li>Class</li>
+      </ul>
+      <p>
+        There is also an option to sort brawlers based on if you have quests
+        that require you to use them. When using the quest sorting, it will put
+        the brawler with the most number of quests at the top. This is quite
+        useful to see which brawlers you can play to finish multiple brawler
+        quests at once.
+      </p>
+    </div>
+    <div class="table_with_info">
+      <h2 id="section-class">Class</h2>
+      <p>
+        In Brawl Stars, there are classes which are used to categorise brawlers
+        by their functions. Sometimes, these categorisations aren't the most
+        accurate, but they provide a good explanation to new players about how
+        the brawler should be played. There are 7 classes, which are:
+      </p>
+      <ul class="sort_by_list">
+        <li>
+          Tanks <img src="tank_icon.png" alt="Tank Icon" id="tank_icon" />
+        </li>
+        <li>
+          Assassins
+          <img src="assassin_icon.png" alt="Assassin Icon" id="assassin_icon" />
+        </li>
+        <li>
+          Support
+          <img src="support_icon.png" alt="Support Icon" id="support_icon" />
+        </li>
+        <li>
+          Controller
+          <img
+            src="controller_icon.png"
+            alt="Controller Icon"
+            id="controller_icon"
+          />
+        </li>
+        <li>
+          Damage Dealer
+          <img
+            src="damage_dealer_icon.png"
+            alt="Damage Dealer Icon"
+            id="damage_dealer_icon"
+          />
+        </li>
+        <li>
+          Marksmen
+          <img src="marksmen_icon.png" alt="Marksmen Icon" id="marksmen_icon" />
+        </li>
+        <li>
+          Artillery
+          <img
+            src="artillery_icon.png"
+            alt="Artilley Icon"
+            id="artillery_icon"
+          />
+        </li>
+      </ul>
+    </div>
+
+    <div class="table_with_info">
+      <h2 id="section-mastery">Mastery</h2>
+      <div id="mastery">
+        <p>
+          In Brawl Stars, Mastery, is a way of tracking the amount you have
+          played a certian brawler. You get mastery from winning games. In 3vs3
+          gamemodes like brawl ball or knockout, you must win the game to get
+          mastery points. In solo showdown, you need top 4 to get mastery
+          points. In duo showdown, you need top 2 to get mastery points. The
+          amount of mastery you gain is based off of the amount of trophies you
+          had when winning. The higher the trophies, the more mastery points you
+          will gain every win. There are way to get more mastery points than
+          expected. The 2 methods are to:
+        </p>
+        <img src="mastery_icon.png" alt="Mastery Icon" id="mastery_icon" />
+      </div>
+
+      <ul>
+        <li>Get Star Player</li>
+        <li>Win During Mastery Madness Event</li>
+      </ul>
+      <p>
+        Getting star player will give 30% more mastery than normal. Mastery
+        Madness events increase mastery points gained by 50%, 100%, 150% or
+        200%.
+      </p>
+      <p>
+        The amount of mastery gained for every trophy range is listed below:
+      </p>
+      <table class="simple_table">
+        <tr>
+          <td>Trophy Range</td>
+          <td>Mastery Points Gained</td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            0-49 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            5 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            50-99 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            7 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            100-149 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            10 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            150-199 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            12 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            200-249 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            15 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            250-299 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            17 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            300-349 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            20 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            350-399 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            23 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            400-449<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            25 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            450-499 <img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            27 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            500-549<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            35 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            550-599<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            40 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            600-649<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            45 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            650-699<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            50 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            700-749<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            55 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            750-799<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            60 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            800-849<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            65 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            850-899<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            70 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            900-949<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            75 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            950-999<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            80 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            1000-1049<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            85 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            1050-1099<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            90 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr class="simple_table even">
+          <td>
+            1100-1149<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            95 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            1150+<img src="trophy_icon.png" class="in_table_trophy_icon" />
+          </td>
+          <td>
+            100 <img src="mastery_icon.png" class="in_table_mastery_icon" />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <p>
+        There are milestones which give rewards that are either progression or
+        exclusive cosmetics. These miletones, mastery points required and
+        rewards are all listed below:
+      </p>
+      <table class="simple_table with_text">
+        <tr>
+          <td></td>
+          <td>
+            <img
+              src="starting_brawler_icon.png"
+              alt="Starting Brawler"
+              class="in_mastery_table_brawler_rarity_icon"
+            />
+            <img
+              src="rare_brawler_icon.png"
+              alt="Rare Brawlers"
+              class="in_mastery_table_brawler_rarity_icon"
+            /><img
+              src="super_rare_brawler_icon.png"
+              alt="Super Rare Brawlers"
+              class="in_mastery_table_brawler_rarity_icon"
+            />
+            <img
+              src="epic_brawler_icon.png"
+              alt="Epic Brawlers"
+              class="in_mastery_table_brawler_rarity_icon"
+            />
+          </td>
+          <td>
+            <img
+              src="mythic_brawler_icon.png"
+              alt="Mythic Brawlers"
+              class="in_mastery_table_brawler_rarity_icon"
+            /><img
+              src="legendary_brawler_icon.png"
+              alt="Legendary Brawlers"
+              class="in_mastery_table_brawler_rarity_icon"
+            />
+          </td>
+          <td>Mastery Points Required</td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="bronze_mastery_icon.png"
+              alt="Bronze Mastery Icon"
+              class="in_mastery_table_mastery_icon"
+            />
+            <span class="mastery_table_numbers">1</span>
+          </td>
+          <td>
+            <img
+              src="coin_icon.png"
+              alt="Coin Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">750</span>
+          </td>
+          <td>
+            <img
+              src="coin_icon.png"
+              alt="Coin Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">1000</span>
+          </td>
+          <td>
+            <span class="mastery_table_numbers">300</span>
+            <img
+              src="mastery_icon.png"
+              alt="Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="bronze_mastery_icon.png"
+              alt="Bronze Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">2</span>
+          </td>
+          <td>
+            <img
+              src="power_point_icon.png"
+              alt="Power Point Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">100</span>
+          </td>
+          <td>
+            <img
+              src="power_point_icon.png"
+              alt="Power Point Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">150</span>
+          </td>
+          <td>
+            <span class="mastery_table_numbers">800</span>
+            <img
+              src="mastery_icon.png"
+              alt="Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="bronze_mastery_icon.png"
+              alt="Bronze Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">3</span>
+          </td>
+          <td>
+            <img
+              src="credit_icon.png"
+              alt="Credit Icon"
+              class="in_mastery_table_currency"
+            /><span class="mastery_table_numbers">75</span>
+          </td>
+          <td>
+            <img
+              src="credit_icon.png"
+              alt="Credit Icon"
+              class="in_mastery_table_currency"
+            /><span class="mastery_table_numbers">100</span>
+          </td>
+          <td>
+            <span class="mastery_table_numbers">1500</span>
+            <img
+              src="mastery_icon.png"
+              alt="Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="silver_mastery_icon.png"
+              alt="Silver Mastery Icon"
+              class="in_mastery_table_currency"
+            /><span class="mastery_table_numbers">1</span>
+          </td>
+          <td>
+            <img
+              src="power_point_icon.png"
+              alt="Power Point Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">200</span>
+          </td>
+          <td>
+            <img
+              src="power_point_icon.png"
+              alt="Power Point Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">300</span>
+          </td>
+          <td>
+            <span class="mastery_table_numbers">2600</span>
+            <img
+              src="mastery_icon.png"
+              alt="Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="silver_mastery_icon.png"
+              alt="Silver Mastery Icon"
+              class="in_mastery_table_currency"
+            /><span class="mastery_table_numbers">2</span>
+          </td>
+          <td>
+            <img
+              src="coin_icon.png"
+              alt="Coin Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">1250</span>
+          </td>
+          <td>
+            <img
+              src="coin_icon.png"
+              alt="Coin Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">2000</span>
+          </td>
+          <td>
+            <span class="mastery_table_numbers">4000</span>
+            <img
+              src="mastery_icon.png"
+              alt="Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="silver_mastery_icon.png"
+              alt="Silver Mastery Icon"
+              class="in_mastery_table_currency"
+            /><span class="mastery_table_numbers">3</span>
+          </td>
+          <td>
+            <img
+              src="credit_icon.png"
+              alt="Credit Icon"
+              class="in_mastery_table_currency"
+            /><span class="mastery_table_numbers">150</span>
+          </td>
+          <td>
+            <img
+              src="credit_icon.png"
+              alt="Credit Icon"
+              class="in_mastery_table_currency"
+            /><span class="mastery_table_numbers">200</span>
+          </td>
+          <td>
+            <span class="mastery_table_numbers">5800</span>
+            <img
+              src="mastery_icon.png"
+              alt="Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="gold_mastery_icon.png"
+              alt="Gold Mastery Icon"
+              class="in_mastery_table_currency"
+            /><span class="mastery_table_numbers">1</span>
+          </td>
+          <td colspan="2">
+            <img
+              src="pin_icon.png"
+              alt="Pin Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="in_mastery_table_small_text"
+              >Brawler Exclusive Faceplam Pin</span
+            >
+          </td>
+          <td>
+            <span class="mastery_table_numbers">10300</span>
+            <img
+              src="mastery_icon.png"
+              alt="Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="gold_mastery_icon.png"
+              alt="Gold Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">2</span>
+          </td>
+          <td colspan="2">
+            <img
+              src="default_profile_icon.png"
+              alt="Default Proifle Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="in_mastery_table_small_text"
+              >Brawler Exclusive Profile Icon</span
+            >
+          </td>
+          <td>
+            <span class="mastery_table_numbers">16800</span>
+            <img
+              src="mastery_icon.png"
+              alt="Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="gold_mastery_icon.png"
+              alt="Gold Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+            <span class="mastery_table_numbers">3</span>
+          </td>
+          <td colspan="2">
+            <img
+              src="title_icon.png"
+              alt="Title Icon"
+              class="in_mastery_table_currency"
+            /><span class="in_mastery_table_small_text"
+              >Brawler Exclusive Title</span
+            >
+          </td>
+          <td>
+            <span class="mastery_table_numbers">24800</span>
+            <img
+              src="mastery_icon.png"
+              alt="Mastery Icon"
+              class="in_mastery_table_currency"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="table_with_info">
+      <h2 id="section-trophies">Trophies</h2>
+      <p>
+        Trophies are a way of measuring Player's or Brawler's progress. They are
+        awarded or lost depending on the outcome of each match. The trophies on
+        all the brawlers combined yields the Player's total trophy count. The
+        higher the trophies on a certain brawler, less trophies will be awarded
+        for each win and more trophies will be lost for each loss.
+      </p>
+      <p>
+        The number of trophies gained and lost in each gamemode are listed
+        below:
+      </p>
+      <ul class="nav_bar">
+        <li class="small_nav_bar_items">
+          <a
+            class="small_nav_bar_links"
+            href="bs_trophy_3vs3.html#section-trophies"
+            >3 vs 3</a
+          >
+        </li>
+        <li class="small_nav_bar_items">
+          <a
+            class="small_nav_bar_links active"
+            href="bs_trophy_solo_showdown.html#section-trophies"
+            >Solo Showdown</a
+          >
+        </li>
+        <li class="small_nav_bar_items">
+          <a
+            class="small_nav_bar_links"
+            href="bs_trophy_duo_showdown.html#section-trophies"
+            >Duo Showdown</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -17,7 +17,7 @@
 
   <body>
     <div id="nav_bar_container">
-      <ul id="nav_bar">
+      <ul class="nav_bar">
         <li class="nav_bar_items">
           <a href="bs_home.html" class="nav_bar_links">Home</a>
         </li>
@@ -68,14 +68,27 @@
       </ul>
     </div>
 
-    <div id="brawler_info">
+    <div class="starting_info">
       <h1 class="title">Brawlers</h1>
-      <p>This page contains information about brawler rarities,</p>
+      <p>
+        This page contains information about
+        <a class="goto" href="#section-brawler_rarities"
+          ><u>Brawler Rarities</u></a
+        >
+        &nbsp;,&nbsp;
+        <a class="goto" href="#section-sorting"> <u>Sorting</u></a>
+        &nbsp;,&nbsp;
+        <a class="goto" href="#section-class"> <u>Class</u></a>
+        &nbsp;,&nbsp;
+        <a class="goto" href="#section-mastery"><u>Mastery</u></a>
+        &nbsp;,&nbsp;
+        <a class="goto" href="#section-trophies"> <u>Trophies</u></a>
+      </p>
       <p>In Brawl Stars, there are currently 84 brawlers.</p>
     </div>
 
     <div class="table_with_info">
-      <h2>Brawler Rarities</h2>
+      <h2 id="section-brawler_rarities">Brawler Rarities</h2>
       <p class="info">
         These brawlers are split into 6 rarities. These rarities are:
       </p>
@@ -188,7 +201,7 @@
     </div>
 
     <div class="table_with_info">
-      <h2>Sorting</h2>
+      <h2 id="section-sorting">Sorting</h2>
       <p class="info">
         You are able to sort your brawlers by, in order of the dropdown menu:
       </p>
@@ -214,7 +227,7 @@
       </p>
     </div>
     <div class="table_with_info">
-      <h2>Class</h2>
+      <h2 id="section-class">Class</h2>
       <p>
         In Brawl Stars, there are classes which are used to categorise brawlers
         by their functions. Sometimes, these categorisations aren't the most
@@ -265,7 +278,7 @@
     </div>
 
     <div class="table_with_info">
-      <h2>Mastery</h2>
+      <h2 id="section-mastery">Mastery</h2>
       <div id="mastery">
         <p>
           In Brawl Stars, Mastery, is a way of tracking the amount you have
@@ -817,7 +830,7 @@
     </div>
 
     <div class="table_with_info">
-      <h2>Trophies</h2>
+      <h2 id="section-trophies">Trophies</h2>
       <p>
         Trophies are a way of measuring Player's or Brawler's progress. They are
         awarded or lost depending on the outcome of each match. The trophies on
@@ -825,11 +838,759 @@
         higher the trophies on a certain brawler, less trophies will be awarded
         for each win and more trophies will be lost for each loss.
       </p>
+      <br />
       <p>
         The number of trophies gained and lost in each gamemode are listed
         below:
       </p>
-      <table></table>
+      <ul class="nav_bar">
+        <li class="small_nav_bar_items">
+          <a
+            class="small_nav_bar_links"
+            href="bs_trophy_3vs3.html#section-trophies"
+            >3 vs 3</a
+          >
+        </li>
+        <li class="small_nav_bar_items">
+          <a
+            class="small_nav_bar_links"
+            href="bs_trophy_solo_showdown.html#section-trophies"
+            >Solo Showdown</a
+          >
+        </li>
+        <li class="small_nav_bar_items">
+          <a
+            class="small_nav_bar_links"
+            href="bs_trophy_duo_showdown.html#section-trophies"
+            >Duo Showdown</a
+          >
+        </li>
+      </ul>
+      <br />
+      <p>
+        In brawl stars, the number of trophies a brawler has determines its
+        Rank/Tier. Each, tier you reach, you are awarded 10XP. Once you reach a
+        tier on a brawler, the number on your tier will never change, even if
+        you lose all the trophies on the brawler. The highest tier is 35. No
+        matter how many more trophies are earned, the tier number will never go
+        past tier 35. Every time a brawler goes up 5 tiers, the colour of the
+        tier symbol will change. Every 5 tiers from tier 10 onwards, bling will
+        be awarded to the player.
+      </p>
+      <br />
+      <p>Below is a detailed table about each tier and its rewards:</p>
+      <table class="big_table">
+        <tr>
+          <td class="of_table">Tier Colour</td>
+          <td class="of_table">Tier</td>
+          <td class="of_table">Trophies Required</td>
+          <td class="of_table">Increased Trophies From Previous Tier</td>
+          <td class="of_table">Bling Earned</td>
+        </tr>
+        <tr class="even">
+          <td rowspan="4" class="bronze_colour">Bronze</td>
+          <td>1</td>
+          <td>
+            0
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>
+            10
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />10
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td>3</td>
+          <td>
+            20
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />10
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>
+            30
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />10
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td rowspan="5" class="silver_colour">Silver</td>
+          <td>5</td>
+          <td>
+            40
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />10
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>
+            60
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />20
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td>7</td>
+          <td>
+            80
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />20
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>
+            100
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />20
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td>9</td>
+          <td>
+            120
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />20
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td rowspan="5" class="gold_colour">Gold</td>
+          <td>10</td>
+          <td>
+            140
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />20
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            10 <img src="bling_icon.png" alt="Bling" class="tier_table_icon" />
+          </td>
+        </tr>
+        <tr class="even">
+          <td>11</td>
+          <td>
+            160
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />20
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>
+            180
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />20
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td>13</td>
+          <td>
+            220
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />40
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>
+            260
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />40
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td rowspan="5" class="diamond_colour">Diamond</td>
+          <td>15</td>
+          <td>
+            300
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />40
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            20 <img src="bling_icon.png" alt="Bling" class="tier_table_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>
+            340
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />40
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td>17</td>
+          <td>
+            380
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />40
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>
+            420
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />40
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td>19</td>
+          <td>
+            460
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />40
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td rowspan="5" class="amethyst_colour">Amethyst</td>
+          <td>20</td>
+          <td>
+            500
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />40
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            30 <img src="bling_icon.png" alt="Bling" class="tier_table_icon" />
+          </td>
+        </tr>
+        <tr class="even">
+          <td>21</td>
+          <td>
+            550
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>
+            600
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td>23</td>
+          <td>
+            650
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>
+            700
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td rowspan="5" class="emerald_colour">Emerald</td>
+          <td>25</td>
+          <td>
+            750
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            40 <img src="bling_icon.png" alt="Bling" class="tier_table_icon" />
+          </td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td>
+            800
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td>27</td>
+          <td>
+            850
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>
+            900
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td>29</td>
+          <td>
+            950
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td rowspan="5" class="ruby_colour">Ruby</td>
+          <td>30</td>
+          <td>
+            1000
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            50 <img src="bling_icon.png" alt="Bling" class="tier_table_icon" />
+          </td>
+        </tr>
+        <tr class="even">
+          <td>31</td>
+          <td>
+            1050
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>32</td>
+          <td>
+            1100
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td>33</td>
+          <td>
+            1150
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>34</td>
+          <td>
+            1200
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td></td>
+        </tr>
+        <tr class="even">
+          <td rowspan="1" class="obsidian_colour">Obsidian</td>
+          <td>35</td>
+          <td>
+            1250
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            <img src="green_up_arrow_icon.png" class="tier_table_icon" />50
+            <img src="trophy_icon.png" alt="Trophies" class="tier_table_icon" />
+          </td>
+          <td>
+            60 <img src="bling_icon.png" alt="Bling" class="tier_table_icon" />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <p>
+        At the end of each season, your top 10 highest brawlers above 500
+        trophies lose some trophies during the season reset. The amount of bling
+        gained and the number of trophies you have after are listed below:
+      </p>
+      <table class="simple_table">
+        <tr>
+          <td>Brawler Trophies</td>
+          <td>Trophies After Reset</td>
+          <td>Bling Awarded</td>
+        </tr>
+        <tr class="even">
+          <td>501-524</td>
+          <td>500 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>4 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>525-549</td>
+          <td>524 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>6 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>550-574</td>
+          <td>549 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>8 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>575-599</td>
+          <td>574 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>10 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>600-624</td>
+          <td>599 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>12 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>625-649</td>
+          <td>624 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>14 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>650-674</td>
+          <td>649 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>16 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>675-699</td>
+          <td>674 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>18 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>700-724</td>
+          <td>699 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>20 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>725-749</td>
+          <td>724 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>22 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>750-774</td>
+          <td>749 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>24 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>775-799</td>
+          <td>774 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>26 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>800-824</td>
+          <td>799 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>28 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>825-849</td>
+          <td>824 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>30 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>850-874</td>
+          <td>849 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>32 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>875-899</td>
+          <td>874 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>34 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>900-924</td>
+          <td>899 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>36 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>925-949</td>
+          <td>924 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>38 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>950-974</td>
+          <td>949 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>40 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>975-999</td>
+          <td>974 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>42 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>1000-1049</td>
+          <td>999 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>44 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>1050-1099</td>
+          <td>1049 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>46 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>1100-1149</td>
+          <td>1099 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>48 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>1150-1199</td>
+          <td>1149 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>50 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>1200-1249</td>
+          <td>1199 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>52 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>1250-1299</td>
+          <td>1249 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>54 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>1300-1349</td>
+          <td>1299 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>56 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>1350-1399</td>
+          <td>1349 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>58 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>1400-1449</td>
+          <td>1399 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>60 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr>
+          <td>1450-1499</td>
+          <td>1449 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>62 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+        <tr class="even">
+          <td>1500+</td>
+          <td>1499 <img src="trophy_icon.png" class="tier_table_icon" /></td>
+          <td>64 <img src="bling_icon.png" class="tier_table_icon" /></td>
+        </tr>
+      </table>
+      <p>
+        The most amount of bling you can possibly earn is 640, with your 10
+        highest brawlers all having over 1500 trophies, which is incredibly
+        difficult.
+      </p>
+    </div>
+    <div class="table_with_info">
+      <h2>Brawler Upgrades</h2>
+      <p>
+        To upgrade brawlers, you need to use coins
+        <span class="inline-flex">
+          <img src="coin_icon.png" class="wp_image_size" />
+          and power points
+        </span>
+        <img src="power_point_icon.png" class="wp_image_size" /> ; after
+        upgrading brawlers to power level 7, you unlock gadgets, at power level
+        8, you unlock 1 gear, at power level 9, you unlock star powers, at power
+        level 10, you unlock a 2nd gear and at power level 11, the max, you
+        unlock hypercharges. Upgrading brawlers will also increase their stats.
+      </p>
+      <br />
+      <table class="simple_table middle">
+        <tr>
+          <td>
+            <img src="gadget_icon.png" alt="Gadget Icon" class="big_icon" />
+          </td>
+          <td>
+            <img src="damage_gear_icon.png" alt="Gear Icon" class="big_icon" />
+            <span class="mastery_table_numbers">1</span>
+          </td>
+          <td>
+            <img
+              src="star_power_icon.png"
+              alt="Star Power Icon"
+              class="big_icon"
+            />
+          </td>
+          <td>
+            <img
+              src="damage_gear_icon.png"
+              alt="Gear Icon"
+              class="big_icon"
+            /><span class="mastery_table_numbers">2</span>
+          </td>
+          <td>
+            <img
+              src="hypercharge_icon.png"
+              alt="Hypercharge Icon"
+              class="big_icon"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Level 7</td>
+          <td>Level 8</td>
+          <td>Level 9</td>
+          <td>Level 10</td>
+          <td>Level 11</td>
+        </tr>
+        <tr>
+          <td>
+            1000 <img src="coin_icon.png" alt="Coins" class="tier_table_icon" />
+          </td>
+          <td>
+            1000/1250/1500
+            <img src="coin_icon.png" alt="Coins" class="tier_table_icon" />
+          </td>
+          <td>
+            2000 <img src="coin_icon.png" alt="Coins" class="tier_table_icon" />
+          </td>
+          <td>
+            1000/1250/1500
+            <img src="coin_icon.png" alt="Coins" class="tier_table_icon" />
+          </td>
+          <td>
+            5000 <img src="coin_icon.png" alt="Coins" class="tier_table_icon" />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <p>
+        Gadgets are abilities that can be activated in-game to change the tide
+        of a game. However, they can only be used 3 times a game (and 4 if you
+        have the gadget gear).
+      </p>
+      <br />
+      <p>
+        Gears are small buffs that help you during the course of a game. Super
+        Rare gears (blue) cost 1000 coins each, and there are 6 of them. They
+        are the Speed Gear, Health Gear, Damage Gear, Vision Gear, Sheild Gear
+        and Gadget Gear. Their effects are all listed below:
+      </p>
+      <br />
+      <p>
+        The amount of coins and power points to upgrade a brawler depends on the
+        power level. The higher the level, the more resources it takes to
+        upgrade to the next level.
+      </p>
     </div>
   </body>
 </html>
