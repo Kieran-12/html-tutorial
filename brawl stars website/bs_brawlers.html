@@ -68,8 +68,8 @@
       </ul>
     </div>
 
+    <h1 class="title">Brawlers</h1>
     <div class="starting_info">
-      <h1 class="title">Brawlers</h1>
       <p>
         This page contains information about
         <a class="goto" href="#section-brawler_rarities"
@@ -95,18 +95,18 @@
 
       <div id="brawler_rarity_table">
         <table>
-          <tr class="brawler_rarities">
+          <tr class="brawler_rarities table_rarity_word">
             <td class="table_rarity_word">
-              <a href="bs_brawlers_starting.html"
-                ><span class="baby_blue">Starting Brawler</span></a
-              >
+              <a href="bs_brawlers_starting.html">
+                <u> <span class="baby_blue">Starting Brawler</span></u>
+              </a>
             </td>
             <td class="float_right_rarity_icons">
               <a href="bs_brawlers_starting.html">
                 <img
                   src="starting_brawler_icon.png"
                   alt="Starting Brawler Icon"
-                  id="starting_brawler_icon"
+                  class="brawler_icon"
                 />
               </a>
             </td>
@@ -123,7 +123,7 @@
                 <img
                   src="rare_brawler_icon.png"
                   alt="Rare Brawler Icon"
-                  id="rare_brawler_icon"
+                  class="brawler_icon"
                 />
               </a>
             </td>
@@ -140,7 +140,7 @@
                 <img
                   src="super_rare_brawler_icon.png"
                   alt="Super Rare Brawler Icon"
-                  id="super_rare_brawler_icon"
+                  class="brawler_icon"
                 />
               </a>
             </td>
@@ -157,7 +157,7 @@
                 <img
                   src="epic_brawler_icon.png"
                   alt="Epic Brawler Icon"
-                  id="epic_brawler_icon"
+                  class="brawler_icon"
                 />
               </a>
             </td>
@@ -174,7 +174,7 @@
                 <img
                   src="mythic_brawler_icon.png"
                   alt="Mythic Brawler Icon"
-                  id="mythic_brawler_icon"
+                  class="brawler_icon"
                 />
               </a>
             </td>
@@ -191,7 +191,7 @@
                 <img
                   src="legendary_brawler_icon.png"
                   alt="Legendary Brawler Icon"
-                  id="legendary_brawler_icon"
+                  class="brawler_icon"
                 />
               </a>
             </td>
@@ -205,7 +205,7 @@
       <p class="info">
         You are able to sort your brawlers by, in order of the dropdown menu:
       </p>
-      <ul class="sort_by_list">
+      <ul class="list">
         <li>Rarity</li>
         <li>Rarity Descending</li>
         <li>Most Trophies</li>
@@ -234,7 +234,7 @@
         accurate, but they provide a good explanation to new players about how
         the brawler should be played. There are 7 classes, which are:
       </p>
-      <ul class="sort_by_list">
+      <ul class="list">
         <li>
           Tanks <img src="tank_icon.png" alt="Tank Icon" id="tank_icon" />
         </li>
@@ -282,16 +282,20 @@
       <div id="mastery">
         <p>
           In Brawl Stars, Mastery, is a way of tracking the amount you have
-          played a certian brawler. You get mastery from winning games. In 3vs3
+          played a certain brawler. You get mastery from winning games. In 3vs3
           gamemodes like brawl ball or knockout, you must win the game to get
-          mastery points. In solo showdown, you need top 4 to get mastery
-          points. In duo showdown, you need top 2 to get mastery points. The
+          mastery points. In Solo Showdown, you need top 4 to get mastery
+          points. In Duo Showdown, you need top 2 to get mastery points. The
           amount of mastery you gain is based off of the amount of trophies you
           had when winning. The higher the trophies, the more mastery points you
           will gain every win. There are way to get more mastery points than
           expected. The 2 methods are to:
         </p>
-        <img src="mastery_icon.png" alt="Mastery Icon" id="mastery_icon" />
+        <img
+          src="mastery_icon.png"
+          alt="Mastery Icon"
+          class="big_mastery_icon"
+        />
       </div>
 
       <ul>
@@ -507,7 +511,7 @@
       <br />
       <p>
         There are milestones which give rewards that are either progression or
-        exclusive cosmetics. These miletones, mastery points required and
+        exclusive cosmetics. These milestones, mastery points required and
         rewards are all listed below:
       </p>
       <table class="simple_table with_text">
@@ -545,16 +549,18 @@
               class="in_mastery_table_brawler_rarity_icon"
             />
           </td>
-          <td>Mastery Points Required</td>
+          <td><div class="items_center">Mastery Points Required</div></td>
         </tr>
         <tr>
           <td>
-            <img
-              src="bronze_mastery_icon.png"
-              alt="Bronze Mastery Icon"
-              class="in_mastery_table_mastery_icon"
-            />
-            <span class="mastery_table_numbers">1</span>
+            <div class="items_center">
+              <img
+                src="bronze_mastery_icon.png"
+                alt="Bronze Mastery Icon"
+                class="in_mastery_table_mastery_icon"
+              />
+              <span class="mastery_table_numbers">1</span>
+            </div>
           </td>
           <td>
             <img
@@ -583,12 +589,14 @@
         </tr>
         <tr>
           <td>
-            <img
-              src="bronze_mastery_icon.png"
-              alt="Bronze Mastery Icon"
-              class="in_mastery_table_currency"
-            />
-            <span class="mastery_table_numbers">2</span>
+            <div class="items_center">
+              <img
+                src="bronze_mastery_icon.png"
+                alt="Bronze Mastery Icon"
+                class="in_mastery_table_currency"
+              />
+              <span class="mastery_table_numbers">2</span>
+            </div>
           </td>
           <td>
             <img
@@ -617,12 +625,14 @@
         </tr>
         <tr>
           <td>
-            <img
-              src="bronze_mastery_icon.png"
-              alt="Bronze Mastery Icon"
-              class="in_mastery_table_currency"
-            />
-            <span class="mastery_table_numbers">3</span>
+            <div class="items_center">
+              <img
+                src="bronze_mastery_icon.png"
+                alt="Bronze Mastery Icon"
+                class="in_mastery_table_currency"
+              />
+              <span class="mastery_table_numbers">3</span>
+            </div>
           </td>
           <td>
             <img
@@ -649,11 +659,13 @@
         </tr>
         <tr>
           <td>
-            <img
-              src="silver_mastery_icon.png"
-              alt="Silver Mastery Icon"
-              class="in_mastery_table_currency"
-            /><span class="mastery_table_numbers">1</span>
+            <div class="items_center">
+              <img
+                src="silver_mastery_icon.png"
+                alt="Silver Mastery Icon"
+                class="in_mastery_table_currency"
+              /><span class="mastery_table_numbers">1</span>
+            </div>
           </td>
           <td>
             <img
@@ -682,11 +694,13 @@
         </tr>
         <tr>
           <td>
-            <img
-              src="silver_mastery_icon.png"
-              alt="Silver Mastery Icon"
-              class="in_mastery_table_currency"
-            /><span class="mastery_table_numbers">2</span>
+            <div class="items_center">
+              <img
+                src="silver_mastery_icon.png"
+                alt="Silver Mastery Icon"
+                class="in_mastery_table_currency"
+              /><span class="mastery_table_numbers">2</span>
+            </div>
           </td>
           <td>
             <img
@@ -715,11 +729,13 @@
         </tr>
         <tr>
           <td>
-            <img
-              src="silver_mastery_icon.png"
-              alt="Silver Mastery Icon"
-              class="in_mastery_table_currency"
-            /><span class="mastery_table_numbers">3</span>
+            <div class="items_center">
+              <img
+                src="silver_mastery_icon.png"
+                alt="Silver Mastery Icon"
+                class="in_mastery_table_currency"
+              /><span class="mastery_table_numbers">3</span>
+            </div>
           </td>
           <td>
             <img
@@ -746,21 +762,25 @@
         </tr>
         <tr>
           <td>
-            <img
-              src="gold_mastery_icon.png"
-              alt="Gold Mastery Icon"
-              class="in_mastery_table_currency"
-            /><span class="mastery_table_numbers">1</span>
+            <div class="items_center">
+              <img
+                src="gold_mastery_icon.png"
+                alt="Gold Mastery Icon"
+                class="in_mastery_table_currency"
+              /><span class="mastery_table_numbers">1</span>
+            </div>
           </td>
           <td colspan="2">
-            <img
-              src="pin_icon.png"
-              alt="Pin Icon"
-              class="in_mastery_table_currency"
-            />
-            <span class="in_mastery_table_small_text"
-              >Brawler Exclusive Faceplam Pin</span
-            >
+            <div class="items_center">
+              <img
+                src="pin_icon.png"
+                alt="Pin Icon"
+                class="in_mastery_table_currency"
+              />
+              <span class="in_mastery_table_small_text"
+                >Brawler Exclusive Facepalm Pin</span
+              >
+            </div>
           </td>
           <td>
             <span class="mastery_table_numbers">10300</span>
@@ -773,22 +793,26 @@
         </tr>
         <tr>
           <td>
-            <img
-              src="gold_mastery_icon.png"
-              alt="Gold Mastery Icon"
-              class="in_mastery_table_currency"
-            />
-            <span class="mastery_table_numbers">2</span>
+            <div class="items_center">
+              <img
+                src="gold_mastery_icon.png"
+                alt="Gold Mastery Icon"
+                class="in_mastery_table_currency"
+              />
+              <span class="mastery_table_numbers">2</span>
+            </div>
           </td>
           <td colspan="2">
-            <img
-              src="default_profile_icon.png"
-              alt="Default Proifle Icon"
-              class="in_mastery_table_currency"
-            />
-            <span class="in_mastery_table_small_text"
-              >Brawler Exclusive Profile Icon</span
-            >
+            <div class="items_center">
+              <img
+                src="default_profile_icon.png"
+                alt="Default Proifle Icon"
+                class="in_mastery_table_currency"
+              />
+              <span class="in_mastery_table_small_text"
+                >Brawler Exclusive Profile Icon</span
+              >
+            </div>
           </td>
           <td>
             <span class="mastery_table_numbers">16800</span>
@@ -801,21 +825,25 @@
         </tr>
         <tr>
           <td>
-            <img
-              src="gold_mastery_icon.png"
-              alt="Gold Mastery Icon"
-              class="in_mastery_table_currency"
-            />
-            <span class="mastery_table_numbers">3</span>
+            <div class="items_center">
+              <img
+                src="gold_mastery_icon.png"
+                alt="Gold Mastery Icon"
+                class="in_mastery_table_currency"
+              />
+              <span class="mastery_table_numbers">3</span>
+            </div>
           </td>
           <td colspan="2">
-            <img
-              src="title_icon.png"
-              alt="Title Icon"
-              class="in_mastery_table_currency"
-            /><span class="in_mastery_table_small_text"
-              >Brawler Exclusive Title</span
-            >
+            <div class="items_center">
+              <img
+                src="title_icon.png"
+                alt="Title Icon"
+                class="in_mastery_table_currency"
+              /><span class="in_mastery_table_small_text"
+                >Brawler Exclusive Title</span
+              >
+            </div>
           </td>
           <td>
             <span class="mastery_table_numbers">24800</span>
@@ -868,7 +896,7 @@
       </ul>
       <br />
       <p>
-        In brawl stars, the number of trophies a brawler has determines its
+        In Brawl Stars, the number of trophies a brawler has determines its
         Rank/Tier. Each, tier you reach, you are awarded 10XP. Once you reach a
         tier on a brawler, the number on your tier will never change, even if
         you lose all the trophies on the brawler. The highest tier is 35. No
@@ -1517,32 +1545,46 @@
       <table class="simple_table middle">
         <tr>
           <td>
-            <img src="gadget_icon.png" alt="Gadget Icon" class="big_icon" />
+            <div class="items_center">
+              <img src="gadget_icon.png" alt="Gadget Icon" class="big_icon" />
+            </div>
           </td>
           <td>
-            <img src="damage_gear_icon.png" alt="Gear Icon" class="big_icon" />
-            <span class="mastery_table_numbers">1</span>
+            <div class="items_center">
+              <img
+                src="damage_gear_icon.png"
+                alt="Gear Icon"
+                class="big_icon"
+              />
+              <span class="mastery_table_numbers">1</span>
+            </div>
           </td>
           <td>
-            <img
-              src="star_power_icon.png"
-              alt="Star Power Icon"
-              class="big_icon"
-            />
+            <div class="items_center">
+              <img
+                src="star_power_icon.png"
+                alt="Star Power Icon"
+                class="big_icon"
+              />
+            </div>
           </td>
           <td>
-            <img
-              src="damage_gear_icon.png"
-              alt="Gear Icon"
-              class="big_icon"
-            /><span class="mastery_table_numbers">2</span>
+            <div class="items_center">
+              <img
+                src="damage_gear_icon.png"
+                alt="Gear Icon"
+                class="big_icon"
+              /><span class="mastery_table_numbers">2</span>
+            </div>
           </td>
           <td>
-            <img
-              src="hypercharge_icon.png"
-              alt="Hypercharge Icon"
-              class="big_icon"
-            />
+            <div class="items_center">
+              <img
+                src="hypercharge_icon.png"
+                alt="Hypercharge Icon"
+                class="big_icon"
+              />
+            </div>
           </td>
         </tr>
         <tr>
@@ -1585,7 +1627,102 @@
         are the Speed Gear, Health Gear, Damage Gear, Vision Gear, Sheild Gear
         and Gadget Gear. Their effects are all listed below:
       </p>
+      <ul class="list">
+        <li>
+          Speed Gear
+          <img src="speed_gear_icon.png" alt="Speed Gear" class="list_icon" />
+          <ul class="list">
+            <li>Gain 15% speed increase when moving in bushes.</li>
+          </ul>
+        </li>
+        <li>
+          Health Gear
+          <img src="health_gear_icon.png" alt="Health Gear" class="list_icon" />
+          <ul class="list">
+            <li>Recover health 50% more effectively.</li>
+          </ul>
+        </li>
+        <li>
+          Damage Gear
+          <img src="damage_gear_icon.png" alt="Damage Gear" class="list_icon" />
+          <ul class="list">
+            <li>
+              Deal 15% extra damage when your Brawler is below 50% Health.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Vision Gear
+          <img src="vision_gear_icon.png" alt="Vision Gear" class="list_icon" />
+          <ul class="list">
+            <li>
+              Reveal opponents for 2 seconds after dealing damage to them.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Sheild Gear
+          <img src="shield_gear_icon.png" alt="Shield Gear" class="list_icon" />
+          <ul class="list">
+            <li>
+              Gain extra 900 health as a consumable shield. The shield
+              regenerates in 10 seconds, when at full health.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Gadget Gear
+          <img src="gadget_gear_icon.png" alt="Gadget Gear" class="list_icon" />
+          <ul class="list">
+            <li>Increases number of Gadget usages per battle by 1.</li>
+          </ul>
+        </li>
+      </ul>
       <br />
+      <p>
+        Epic Gears cost 1250 coins each, and you can't buy and use epic gears on
+        every brawler. There are 3 epic gears, and they are the Reload Gear,
+        Super Charge Gear and Pet Power Gear. Their effects are all listed
+        below:
+      </p>
+      <ul class="list">
+        <li>
+          Reload Gear
+          <img src="reload_gear_icon.png" alt="Reload Gear" class="list_icon" />
+          <ul class="list">
+            <li>15% faster reload.</li>
+            <li>Brawlers who can equip this gear:</li>
+            <div class="group_pfp">
+              <img src="pfp_8-bit_icon.png" alt="8-bit" class="pfp_icon" />
+              <img src="" alt="" />
+            </div>
+          </ul>
+        </li>
+        <li>
+          Super Charge Gear
+          <img
+            src="super_charge_gear_icon.png"
+            alt="Super Charge Gear"
+            class="list_icon"
+          />
+          <ul class="list">
+            <li>Super charges 10% faster.</li>
+            <li>Brawlers who can equip this gear:</li>
+          </ul>
+        </li>
+        <li>
+          Pet Power Gear
+          <img
+            src="pet_power_gear_icon.png"
+            alt="Pet Power Gear"
+            class="list_icon"
+          />
+          <ul class="list">
+            <li>Pet power increased by 25%.</li>
+            <li>Brawlers who can equip this gear:</li>
+          </ul>
+        </li>
+      </ul>
       <p>
         The amount of coins and power points to upgrade a brawler depends on the
         power level. The higher the level, the more resources it takes to
