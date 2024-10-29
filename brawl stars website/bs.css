@@ -125,9 +125,11 @@ p {
 .brawler_icon {
   width: 40px;
   margin-left: 10px;
+  vertical-align: middle;
 }
 .table_rarity_word {
   padding-left: 25px;
+  align-items: center;
 }
 .table_rarity_word a {
   text-decoration: none;
@@ -135,10 +137,24 @@ p {
   display: flex;
   align-items: center;
 }
-
 .table_rarity_word a:hover {
   background-color: #008cff;
   color: #000000;
+}
+
+.brawler_rarity_table_content {
+  display: flex;
+  align-items: center;
+}
+.brawler_rarity_table_content .rarity_word {
+  flex: 0 0 auto;
+  width: 220px;
+}
+.brawler_rarity_line {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
 }
 /* #brawler_rarity_table {
   border-collapse: collapse;
